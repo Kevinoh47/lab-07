@@ -1,6 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB - CRUD
 ================================================
+## Travis
+https://travis-ci.com/Kevinoh47/lab-07
 
+[![Build Status](https://travis-ci.com/Kevinoh47/lab-07.svg?branch=working07c)](https://travis-ci.com/Kevinoh47/lab-07)
 
 ## Before you begin
 * You'll need to initialize this lab folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files
