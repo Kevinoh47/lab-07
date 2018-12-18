@@ -1,6 +1,14 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB - CRUD
 ================================================
+## Travis
+https://travis-ci.com/Kevinoh47/lab-07
 
+[![Build Status](https://travis-ci.com/Kevinoh47/lab-07.svg?branch=working07c)](https://travis-ci.com/Kevinoh47/lab-07)
+
+## Notes
+This repo uses db.json as a data source. My db.json project is here: 
+~/codefellows/toolkit/jsonserver
+To run, go to ~/codefellows/toolkit/jsonserver/api/data and type json-server --id=_id --watch db.json
 
 ## Before you begin
 * You'll need to initialize this lab folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files
