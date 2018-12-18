@@ -30,7 +30,7 @@ function listPage(request, response) {
 function addItem( request, response )  {
   superagent.post( `${API}/api/v1/categories`)
     .then( () => {
-      response.redirect('/list');
+      response.redirect('/list'); 
     })
     .catch( error => {
       response.render('site', {page: './pages/error', title:'Error', error:error});
@@ -40,7 +40,7 @@ function addItem( request, response )  {
 function deleteItem( request, response )  {
   superagent.delete( `${API}/api/v1/categories/${request.body._id}`)
     .then( () => {
-      response.redirect('/list');
+      response.redirect('/list'); 
     })
     .catch( error => {
       response.render('site', {page: './pages/error', title:'Error', error:error});
@@ -50,7 +50,7 @@ function deleteItem( request, response )  {
 function putItem( request, response )  {
   superagent.put( `${API}/api/v1/categories/${request.body._id}`)
     .then( () => {
-      response.redirect('/list');
+      response.redirect('/list'); 
     })
     .catch( error => {
       response.render('site', {page: './pages/error', title:'Error', error:error});
@@ -60,7 +60,7 @@ function putItem( request, response )  {
 function patchItem( request, response )  {
   superagent.patch( `${API}/api/v1/categories/${request.body._id}`)
     .then( () => {
-      response.redirect('/list');
+      response.redirect('/list'); 
     })
     .catch( error => {
       response.render('site', {page: './pages/error', title:'Error', error:error});
